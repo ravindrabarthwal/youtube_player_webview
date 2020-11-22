@@ -29,9 +29,7 @@ Supported Platforms:
 * Fast Forward and Rewind on horizontal drag
 * Fit Videos to wide screens with pinch gestures
 
-The plugin uses [flutter_inappwebview](https://pub.dartlang.org/packages/flutter_inappwebview) under-the-hood.
-
-Since *flutter_inappwebview* relies on Flutter's mechanism for embedding Android and iOS views, this plugin might share some known issues tagged with the [platform-views](https://github.com/flutter/flutter/labels/a%3A%20platform-views) label.
+The plugin uses [webview_flutter](https://pub.dartlang.org/packages/webview_flutter) under-the-hood.
 
 ## Requirements
 * Android: `minSdkVersion 17` and add support for `androidx` (see [AndroidX Migration](https://flutter.dev/docs/development/androidx-migration))
@@ -154,18 +152,8 @@ print(videoId); // BBAyRBTfsOU
 
 ## Example
 
-[Detailed Example](https://github.com/sarbagyastha/youtube_player_flutter/tree/master/packages/youtube_player_flutter/example)
+[Detailed Example](https://github.com/ravindrabarthwal/youtube_player_webview/tree/master/example)
 
-## Quick Links
-* [YoutubePlayer](https://pub.dev/documentation/youtube_player_flutter/latest/youtube_player_flutter/YoutubePlayer-class.html)
-* [YoutubePlayerController](https://pub.dev/documentation/youtube_player_flutter/latest/youtube_player_flutter/YoutubePlayerController-class.html)
-* [YoutubePlayerFlags](https://pub.dev/documentation/youtube_player_flutter/latest/youtube_player_flutter/YoutubePlayerFlags-class.html)
-* [YoutubePlayerValue](https://pub.dev/documentation/youtube_player_flutter/latest/youtube_player_flutter/YoutubePlayerValue-class.html)
-* [YoutubeMetaData](https://pub.dev/documentation/youtube_player_flutter/latest/youtube_player_flutter/YoutubeMetaData-class.html)
-
-## Download
-Download APKs from above(in badge) and try the plugin.
-APKs are available in Assets of Github release page.
 
 ## Limitation 
 Since the plugin is based on platform views. This plugin requires Android API level 20 or greater.
